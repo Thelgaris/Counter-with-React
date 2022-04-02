@@ -20,13 +20,13 @@ const Home = () => {
 	}, []);
 	useEffect(() => {
 		const interval100 = setInterval(() => {
-			setTime10((time100) => time100 + 1);
+			setTime100((time100) => time100 + 1);
 		}, 100000);
 		return () => clearInterval(interval100);
 	}, []);
 	useEffect(() => {
 		const interval1000 = setInterval(() => {
-			setTime10((time1000) => time1000 + 1);
+			setTime1000((time1000) => time1000 + 1);
 		}, 100000);
 		return () => clearInterval(interval1000);
 	}, []);
