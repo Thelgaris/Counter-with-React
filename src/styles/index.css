@@ -10,3 +10,12 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.border {
+    border: 1px;
+    
+}
+
+.counter {
+    place-content: center;
+}
