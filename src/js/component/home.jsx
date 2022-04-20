@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
 	const [time, setTime] = useState(0);
@@ -15,7 +17,9 @@ const Home = () => {
 		<div className="d-flex counter">
 			<div
 				style={{ height: "3rem", width: "3rem" }}
-				className="bg-dark text-white text-center border "></div>
+				className="bg-dark text-white text-center border ">
+				<FontAwesomeIcon icon={faClock} />
+			</div>
 			<div
 				style={{ height: "3rem", width: "3rem" }}
 				className="bg-dark text-white text-center border">
